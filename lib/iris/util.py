@@ -619,6 +619,11 @@ def between(lh, rh, lh_inclusive=True, rh_inclusive=True):
         return lambda c: lh < c < rh
 
 
+def dummy_function():
+    """Dummy function."""
+    return "blah"
+
+
 def reverse(cube_or_array, coords_or_dims):
     """Reverse the cube or array along the given dimensions.
 
