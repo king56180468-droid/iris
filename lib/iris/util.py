@@ -623,6 +623,10 @@ def dummy_function():
     """Dummy function."""
     return "blah"
 
+def dummy_function2():
+    """Dummy function."""
+    return "blah"
+
 
 def reverse(cube_or_array, coords_or_dims):
     """Reverse the cube or array along the given dimensions.
